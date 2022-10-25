@@ -7,7 +7,7 @@ type AppState = {
   token: string
   menuCollapse: boolean
 }
-
+// option api to composable api
 export const useAppStore = defineStore('app', {
   state: (): AppState => {
     return {
